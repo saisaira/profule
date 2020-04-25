@@ -17,7 +17,7 @@ function App(){
 
     </header> <br/> <br/>
         <Route exact path="/profile" component={Profile} />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/profule" component={Home} />
 
 
       </BrowserRouter>
