@@ -1,0 +1,48 @@
+{
+    "profiles":[
+        {
+            "basicInformation": {
+                "name" : "Devarapalli.Sairam",
+                "role" : "Multi skill Trainer",
+                "email" : "sairam.d@apssdc.in",
+                "mobile": "8328028900"
+            },
+            "education":[
+                {
+                    "degree":"B-Tech (ECE)",
+                    "institution": "EVM college of engineering and technology"
+                },
+                {
+                    "degree":"Intermediate",
+                    "institution":"Sri chaitanya boys jr college"
+                },
+                {
+                    "degree":"SSC",
+                    "institution": "Navabharatha High school"
+                }
+            ]
+        },
+        {
+            "basicInformation": {
+                "name" : "Gauthami Devarapalli",
+                "role" : "Multi skill Trainer",
+                "email" : "gauthami.d@apssdc.in",
+                "mobile": "8978391774"
+            },
+            "education":[
+                {
+                    "degree":"B-Tech (CSE)",
+                    "institution": "EVM college of engineering and technology"
+                },
+                {
+                    "degree":"Intermediate",
+                    "institution":"Sri chaitanya college"
+                },
+                {
+                    "degree":"SSC",
+                    "institution": "Bhasyam public school"
+                }
+            ]
+        }
+    ]
+}
