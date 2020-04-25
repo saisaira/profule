@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/github.io/profule/precache-manifest.fe4f5e6928a96f311b0574b46b7a4083.js"
+  "/github.io/profule/precache-manifest.aff73d47c6d60604158af94066d7f832.js"
 );
 
 self.addEventListener('message', (event) => {

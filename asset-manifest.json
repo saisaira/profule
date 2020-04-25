@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/github.io/profule/static/css/main.c0d663da.chunk.css",
-    "main.js": "/github.io/profule/static/js/main.c0b13c8e.chunk.js",
-    "main.js.map": "/github.io/profule/static/js/main.c0b13c8e.chunk.js.map",
+    "main.js": "/github.io/profule/static/js/main.99570dcd.chunk.js",
+    "main.js.map": "/github.io/profule/static/js/main.99570dcd.chunk.js.map",
     "runtime-main.js": "/github.io/profule/static/js/runtime-main.e27e10bd.js",
     "runtime-main.js.map": "/github.io/profule/static/js/runtime-main.e27e10bd.js.map",
     "static/js/2.97ac240a.chunk.js": "/github.io/profule/static/js/2.97ac240a.chunk.js",
     "static/js/2.97ac240a.chunk.js.map": "/github.io/profule/static/js/2.97ac240a.chunk.js.map",
     "index.html": "/github.io/profule/index.html",
-    "precache-manifest.fe4f5e6928a96f311b0574b46b7a4083.js": "/github.io/profule/precache-manifest.fe4f5e6928a96f311b0574b46b7a4083.js",
+    "precache-manifest.aff73d47c6d60604158af94066d7f832.js": "/github.io/profule/precache-manifest.aff73d47c6d60604158af94066d7f832.js",
     "service-worker.js": "/github.io/profule/service-worker.js",
     "static/css/main.c0d663da.chunk.css.map": "/github.io/profule/static/css/main.c0d663da.chunk.css.map",
     "static/js/2.97ac240a.chunk.js.LICENSE.txt": "/github.io/profule/static/js/2.97ac240a.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e27e10bd.js",
     "static/js/2.97ac240a.chunk.js",
     "static/css/main.c0d663da.chunk.css",
-    "static/js/main.c0b13c8e.chunk.js"
+    "static/js/main.99570dcd.chunk.js"
   ]
 }

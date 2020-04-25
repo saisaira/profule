@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a37e9448e0f80d673ce77057f8a81513",
+    "revision": "94ace69e5a3f0a1812cec69fe3b7a426",
     "url": "/github.io/profule/index.html"
   },
   {
-    "revision": "6021e4651e9ab3424ce9",
+    "revision": "5fe5ad68c71de455ec4d",
     "url": "/github.io/profule/static/css/main.c0d663da.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/github.io/profule/static/js/2.97ac240a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6021e4651e9ab3424ce9",
-    "url": "/github.io/profule/static/js/main.c0b13c8e.chunk.js"
+    "revision": "5fe5ad68c71de455ec4d",
+    "url": "/github.io/profule/static/js/main.99570dcd.chunk.js"
   },
   {
     "revision": "daaa8f487afd24cd461a",
