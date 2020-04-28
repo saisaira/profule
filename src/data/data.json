@@ -2,10 +2,11 @@
     "profiles":[
         {
             "basicInformation": {
-                "name" : "Devarapalli.Sairam",
+                "name" : "Devarapalli Sairam",
                 "role" : "Multi skill Trainer",
                 "email" : "sairam.d@apssdc.in",
-                "mobile": "8328028900"
+                "mobile": "8328028900",
+                "d":"working in APSSDC,Having 4 years of experience in training students in engineering colleges throughout Andhra Pradesh on various technologies and tools(Scratch, MIT AppInventor, Raptor, HTML5, CSS3, JS, PWA's, Python, Machine Learning, GIT and Github) Trained more than 4000 students so far in short term and long term training programs in engineering colleges. Trained different school students and ASPIRE Trainers in AP and The​ ​training​ ​was​ ​reached​ ​to​ ​​1,24,768​​(students​+faculties) ​and​ ​helped​ ​them​ ​to​ ​develop  in​ ​the​ ​aspects​ ​of​ ​Computational​ ​Thinking,​ ​development​ ​of​ ​logical​ ​abilities,  building​ ​of​ ​innovative​ ​projects​ ​in​ ​the​ ​genres​ ​like​ ​Animations,​ ​Games,  Subject​ ​concepts,​ ​Storyboards,​ ​Greeting​ ​cards,​ ​etc in Scratch and MIT tolls. "
             },
             "education":[
                 {
@@ -20,6 +21,12 @@
                     "degree":"SSC",
                     "institution": "Navabharatha High school"
                 }
+            ],
+            "skills":[
+              "Problem Solving using Python","Source Code Management using Git and Github","HTML5,CSS3,JS,Responsive web designing(RWD)","Data Analysis and Data Visualization with Python","Machine Learning with Python Web Development using python"
+            ],
+            "cert":[
+              "Front End Web Developer Nanodegree from Udacity","Python for Everybody Specialization from Coursera offered by Michigan University","HTML5,CSS3 and JS Certifications from udemy and sololearn e-learning websites"
             ]
         },
         {
@@ -42,6 +49,12 @@
                     "degree":"SSC",
                     "institution": "Bhasyam public school"
                 }
+            ],
+            "skills":[
+              "Problem Solving using Python","Source Code Management using Git and Github","HTML5,CSS3,JS,Responsive web designing(RWD)","Data Analysis and Data Visualization with Python","Machine Learning with Python Web Development using python"
+            ],
+            "cert":[
+              "Front End Web Developer Nanodegree from Udacity","Python for Everybody Specialization from Coursera offered by Michigan University","HTML5,CSS3 and JS Certifications from udemy and sololearn e-learning websites"
             ]
         }
     ]

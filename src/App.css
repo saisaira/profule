@@ -52,6 +52,12 @@
   border-radius: 10px;
   /* height: 150px; */
 }
+.bu{
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid #ddd;
+  margin: 10px;
+}
 
 .card-top{
   padding: 1%;
@@ -70,7 +76,6 @@ border-radius: 0px 0px 10px 10px;
 }
 
 .card2{
-  width: 65%;
   border: 1px solid #ddd;
   box-shadow:0px 8px 8px -8px #000;
   margin: 1%;
@@ -88,4 +93,16 @@ border-radius: 0px 0px 10px 10px;
 
 .header a{
   color: #fff;
+  text-decoration: none;
+  margin: 1%;
+}
+.card-bottom a{
+  text-decoration: none;
+
+}
+.de{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }

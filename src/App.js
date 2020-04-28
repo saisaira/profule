@@ -12,9 +12,10 @@ function App(){
 
        <BrowserRouter>
        <header className="header">
-       
+         <Link to={{pathname:"/profule"}}> Home </Link>
       {info.map((k,l)=>(
-        <Link to={{pathname:"/profile",data:{id:l}}} key={l}> {"Profile"+(l+1)} </Link>
+
+        <Link to={{pathname:"/profile",data:{id:l}}} key={l}>{"Profile"+(l+1)}</Link>
       ))}
 
     </header> <br/> <br/>
@@ -36,7 +37,7 @@ return(
 {info.map((i,index)=>(
         <div className="card" key={index}>
           <div className="card-top">
-          <img src={image} width="200" />
+          <img src={image} width="200" alt="mypic" />
           <h2> {i.basicInformation.name} </h2>
       <h5> <em> {i.basicInformation.role}</em></h5>
       </div>
@@ -45,7 +46,7 @@ return(
         <a href={"mailto:"+i.basicInformation.email}> {i.basicInformation.email}  </a> <br />
 
         <a href={"tel:"+i.basicInformation.mobile}> {i.basicInformation.mobile}</a> <br />
-        <Link to={{pathname:"/profile",data:{id:index}}}> View Profile</Link>
+        <Link to={{pathname:"/profile",data:{id:index}}}><p className="bu"> View Profile</p></Link>
       </div>
         </div>
       ))}

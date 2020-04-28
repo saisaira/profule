@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Data from './data/data.json';
+import image from './img/ram.jpg';
 
 class Profile extends React.Component{
     render(){
@@ -8,10 +9,13 @@ class Profile extends React.Component{
         var specificProfile=Data.profiles[indexValue];
         return(
             <section className="parent">
-                <div className="card"> 
+                <div className="card">
                     <div className="card-top">
+                  <img src={image} width="150" alt="mypic" />
         <h3> {specificProfile.basicInformation.name} </h3>
     <em> {specificProfile.basicInformation.email} </em>
+
+ <p>{specificProfile.basicInformation.d}</p>
                      </div>
 
                      <div className="card-bottom">
@@ -19,12 +23,11 @@ class Profile extends React.Component{
 
 <a href={"tel:"+specificProfile.basicInformation.mobile}> {specificProfile.basicInformation.mobile}</a>
                      </div>
-                
-                </div>
 
+                </div>
                 <div className="card2">
                     <div className="card-bottom">
-                        <h2> Educational Qualifications</h2>
+                        <h2> Educational Details</h2>
                     </div>
 
                     <div className="card-top">
@@ -35,7 +38,36 @@ class Profile extends React.Component{
                         </ul>
                         ))}
                     </div>
-                </div>
+
+
+                    <div className="card-bottom">
+                        <h2> Technical Skills</h2>
+                    </div>
+
+                    <div className="card-top">
+                        {specificProfile.skills.map((i,j)=>(
+                        <ul>
+                            <li> {i} </li>
+                        </ul>
+                        ))}
+                    </div>
+
+
+
+                    <div className="card-bottom">
+                        <h2> Certifications</h2>
+                    </div>
+
+                    <div className="card-top">
+                        {specificProfile.cert.map((i,j)=>(
+                        <ul>
+                            <li> {i} </li>
+                        </ul>
+                        ))}
+                    </div>
+                    </div>
+
+
             </section>
         )
     }
