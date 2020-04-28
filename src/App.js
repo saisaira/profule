@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './Profile';
 import Data from './data/data.json';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
+import image from './img/ram.jpg';
 
 function App(){
   var info=Data.profiles;
@@ -11,6 +12,7 @@ function App(){
 
        <BrowserRouter>
        <header className="header">
+       
       {info.map((k,l)=>(
         <Link to={{pathname:"/profile",data:{id:l}}} key={l}> {"Profile"+(l+1)} </Link>
       ))}
@@ -34,7 +36,8 @@ return(
 {info.map((i,index)=>(
         <div className="card" key={index}>
           <div className="card-top">
-          <h2> {i.basicInformation.name} </h2> <br />
+          <img src={image} width="200" />
+          <h2> {i.basicInformation.name} </h2>
       <h5> <em> {i.basicInformation.role}</em></h5>
       </div>
 
@@ -42,7 +45,7 @@ return(
         <a href={"mailto:"+i.basicInformation.email}> {i.basicInformation.email}  </a> <br />
 
         <a href={"tel:"+i.basicInformation.mobile}> {i.basicInformation.mobile}</a> <br />
-        <Link to={{pathname:"/profile",data:{id:index}}}> View Profile >> </Link>
+        <Link to={{pathname:"/profile",data:{id:index}}}> View Profile</Link>
       </div>
         </div>
       ))}
